@@ -1,0 +1,251 @@
+  
+  //  html,body{
+  //    width: 100%;
+  //    height: 100%;
+  //    margin: 0;
+  //    overflow-x: hidden;
+  //  }
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+  }
+  
+   .bgg{
+        height: 100%;
+        width: 100%;
+        position: relative;
+      }
+      .alignment{
+        position: absolute;
+        top: 15px;
+        width: 100%;
+      }
+      .img2{
+        /* float: center; */
+        position: absolute;
+        left: 49%;
+        /* font-size: small; */
+        height: 34px;
+      }
+      .rightnav{
+     position: absolute;
+     right: 32px;
+      }
+      .rightnav a,.rightnav button{
+  
+      font-size: small;
+      font-weight: 500;
+      }
+      .btnn{
+  border-radius: 22px;
+      }
+  .navbar-nav li{
+    font-size: small;
+    margin-right: 22px;
+    font-weight: 500;
+  }
+  .ldiv p{
+    color: white;
+      font-weight: 500;
+      font-size: 2.2rem;
+      transform: translate(0px, 52%);
+      text-align: center;
+  }
+  @media (max-width:1280px) and (min-width:1201px) {
+    .ldiv p{
+      font-size: 1.9rem;}
+    .ldiv{
+      margin-top: -10px;}
+      .lab1{
+        margin-top: 28px;
+      
+        .input1 {
+          width: 24rem;}
+          .btn2 {
+            width: 147px;}
+          }
+  }
+  @media (max-width:1200px) and (min-width:1024px) {
+    .lab1{
+    margin-top: 35px;
+      .input1 {
+        width: 21rem;
+      height: 2.5rem;}
+        .btn2 {
+          width: 128px;
+        height: 34px;}
+        }
+    .ldiv p{
+      font-size: 1.5rem;}
+    .ldiv{
+      margin-top: -10px;}
+.img22{
+  width: 73vw;
+}
+    
+  }
+  @media (max-width:1024px) and (min-width:980px) {
+    .lab1{
+      margin-top: 35px;
+        .input1 {
+          width: 19rem;
+        height: 2rem;}
+          .btn2 {
+            width: 116px;
+            height: 28px;
+            font-size: smaller
+          }
+        .flag-i{
+          font-size: medium;
+        }
+      }
+    .ldiv p{
+      font-size: 1.3rem;}
+    .ldiv{
+      margin-top: -10px;}
+.img22{
+  width: 73vw;
+}
+    
+  }
+  @media (max-width:980px) and (min-width:768px) {
+    .lab1{
+      margin-top: 35px;
+        .input1 {
+          width: 19rem;
+        height: 2rem;}
+          .btn2 {
+            width: 116px;
+            height: 28px;
+            font-size: smaller
+          }
+        .flag-i{
+          font-size: medium;
+        }
+      }
+    .ldiv p{ font-size: 1.2rem;
+      margin-top: -20px;
+     }
+     .navbar>.container-fluid{
+       font-size: small;
+     }
+     .section3 .p-absolute {
+    font-size: 12px;}
+    .img22{
+      width: 73vw;
+    }
+    .foot2 button {
+      width: 136px!important;
+    }
+      .foot2 button span {
+        font-size: 14px!important;}
+  }
+
+  @media (max-width:768px) and (min-width:600px) {
+    .section4 .row div img{
+      border-radius: 16px;
+    }
+    .foot2 button {
+      width: 100px!important;
+      font-size: 6px !important;
+    }
+      .foot2 button span {
+        font-size: 10px!important;}
+  
+    .rightnav a,
+    .rightnav button {
+      font-size: xx-small; 
+     }
+     .img2 {
+
+      /* font-size: small; */
+      height: 26px;}
+     .d-flex ul{
+       padding-left: 0;
+       .nav-link{
+        padding: .5rem 0.7rem;
+       }
+     } 
+    .rightnav button.btnn {
+      padding: 0; 
+     }
+    .ldiv p{
+      font-size: 0.9rem;
+      // padding-top: -10px;
+      margin-top: -27px;
+      }
+      .navbar>.container-fluid{
+        font-size: x-small;
+      }
+      .section2 div p{
+        width: 22rem;
+        margin: auto;
+            
+      }
+      .section5 img{
+        margin: 24px auto;
+    width: 280px;
+      }
+.sec3{
+  display: flex;
+  flex-direction: column;
+  p.block{
+    width: 22rem;
+    margin: auto;
+  }
+  
+}
+.img22{
+  width: 73vw;
+}
+
+
+  }
+  @media (max-width:600px) and (min-width:480px) {
+    .rightnav a,
+    .rightnav button {
+      font-size: xx-small; 
+     }
+     .img2 {
+      margin-top: 7px;
+      height: 20px;}
+     .d-flex ul{
+       padding-left: 0;
+       .nav-link{
+        padding: .5rem 0.5rem;
+       }
+     } 
+    .rightnav button.btnn {
+      padding: 0; 
+     }
+    .ldiv p{
+      font-size: 0.6rem;
+      margin-top: -28px;
+      margin-left: 17px;
+   }
+      .navbar>.container-fluid{
+        font-size: x-small;
+      }
+      .section2 div p{
+        width: 22rem;
+        margin: auto;
+            
+      }
+      .section5 img{
+        margin: 24px auto;
+    width: 280px;
+      }
+.sec3{
+  display: flex;
+  flex-direction: column;
+  p.block{
+    width: 22rem;
+    margin: auto;
+  }
+}
+.img22{
+  width: 73vw;
+}
+  }

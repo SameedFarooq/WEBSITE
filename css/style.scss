@@ -1,0 +1,22 @@
+
+@import "./header";
+@import "./section1";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(250, 249, 249);
+}
+header{
+    width: 1170px;
+}
+.blue{
+    color: rgba(29, 97, 243, 0.863);
+}
+.svg{
+color: green !important;
+}
+
